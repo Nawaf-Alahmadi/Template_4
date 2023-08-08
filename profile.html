@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nawaf" />
+    <meta name="keywords" content="Dashboard" />
+    <meta name="description" content="First Dashboard With My Own Framework" />
+    <meta name="theme-color" content="#0075ff">
+    <title>Profile</title>
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="Css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Head Icon -->
+    <link rel="icon" href="Images/dashboard.png">
+    <!-- Framework -->
+    <link rel="stylesheet" href="Css/framework.css" />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="Css/master.css" />
+  </head>
+  <body>
+    <!-- All Page -->
+    <div class="page d-flex">
+      <!-- Sidebar -->
+      <div class="sidebar bg-white p-20">
+        <h3 class="p-relative txt-c">Nawaf</h3>
+        <ul>
+          <li>
+            <a href="index.html" class="rad-6 p-10 c-black d-flex align-center">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="rad-6 p-10 c-black d-flex align-center"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i> <span>Settings</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="active rad-6 p-10 c-black d-flex align-center"
+            >
+              <i class="fa-regular fa-user fa-fw"></i> <span>Profile</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="rad-6 p-10 c-black d-flex align-center"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="rad-6 p-10 c-black d-flex align-center"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="rad-6 p-10 c-black d-flex align-center"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span></a
+            >
+          </li>
+          <li>
+            <a href="file.html" class="rad-6 p-10 c-black d-flex align-center">
+              <i class="fa-regular fa-file fa-fw"></i> <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html" class="rad-6 p-10 c-black d-flex align-center">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- contnet -->
+      <div class="content">
+        <!-- header -->
+        <div class="header bg-white between-flex p-15">
+          <form class="rad-10 d-flex align-center" action="">
+            <i class="fa-solid fa-magnifying-glass fa-fw"></i>
+            <input class="p-10" type="search" placeholder="Type A Keyword" />
+          </form>
+          <div class="icons d-flex align-center">
+            <span class="p-relative">
+              <i class="fa-regular fa-bell"></i>
+            </span>
+            <img class="rad-50" src="Images/me.jpg" alt="" />
+          </div>
+        </div>
+        <h1 class="title p-relative">Profile</h1>
+        <!-- body -->
+        <div class="profile-wrapper m-20">
+          <div class="overview rad-10 bg-white d-flex align-center">
+            <div class="personal-info txt-c p-20">
+              <img class="rad-50" src="Images/me.jpg" alt="" />
+              <h3 class="mt-15 mb-10">Nawaf Alahmadi</h3>
+              <span class="level c-grey d-block mb-10">Level 99</span>
+              <div class="progress bg-eee rad-10 p-relative">
+                <span
+                  style="width: 70%"
+                  class="pass p-absolute bg-blue h-full rad-10"
+                ></span>
+              </div>
+              <div class="stars mb-15">
+                <i class="fa-solid fa-star fa-fw"></i>
+                <i class="fa-solid fa-star fa-fw"></i>
+                <i class="fa-solid fa-star fa-fw"></i>
+                <i class="fa-solid fa-star fa-fw"></i>
+                <i class="fa-solid fa-star fa-fw"></i>
+              </div>
+              <div class="rating c-grey fs-13">550 Rating</div>
+            </div>
+            <div class="profile-info flex-1">
+              <div class="profile-info-row d-flex f-wrap txt-c-mobile">
+                <h4>General Information</h4>
+                <div>
+                  <span>Full Name:</span>
+                  <span>Nawaf Alahmadi</span>
+                </div>
+                <div>
+                  <span>Gender:</span>
+                  <span>Male</span>
+                </div>
+                <div>
+                  <span>Country:</span>
+                  <span>Saudi Arabia</span>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" checked />
+                    <div class="switch-shape"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="profile-info-row d-flex f-wrap txt-c-mobile">
+                <h4>Personal Information</h4>
+                <div>
+                  <span>Email:</span>
+                  <span>Nawaf.m.alahmadi@gmail.com</span>
+                </div>
+                <div>
+                  <span>Phone:</span>
+                  <span>966532053655</span>
+                </div>
+                <div>
+                  <span>Date Of Birth:</span>
+                  <span>1/5/2002</span>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" />
+                    <div class="switch-shape"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="profile-info-row d-flex f-wrap txt-c-mobile">
+                <h4>Job Information</h4>
+                <div>
+                  <span>Title:</span>
+                  <span>Full Stack Developer</span>
+                </div>
+                <div>
+                  <span>Programming Language:</span>
+                  <span>JavaScript</span>
+                </div>
+                <div>
+                  <span>Years Of Experience:</span>
+                  <span>10+</span>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" checked />
+                    <div class="switch-shape"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="profile-info-row d-flex f-wrap txt-c-mobile">
+                <h4>Billing Information</h4>
+                <div>
+                  <span>Payment Method:</span>
+                  <span>Paypal</span>
+                </div>
+                <div>
+                  <span>Email:</span>
+                  <span>Nawaf.m.alahmadi@gmail.com</span>
+                </div>
+                <div>
+                  <span>Subscription:</span>
+                  <span>Monthly</span>
+                </div>
+                <div>
+                  <label>
+                    <input type="checkbox" />
+                    <div class="switch-shape"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="other-data d-flex gap-20">
+            <div class="skills widget-wrapper mt-20">
+              <h2 class="h2-shape-setting-page">My Skills</h2>
+              <p class="p-shape-setting-page">Complete Skills List</p>
+              <div class="skills-row txt-c-mobile">
+                <span>HTML</span>
+                <span>Pugjs</span>
+                <span>HAML</span>
+              </div>
+              <div class="skills-row txt-c-mobile">
+                <span>CSS</span>
+                <span>SASS</span>
+                <span>Stylus</span>
+              </div>
+              <div class="skills-row txt-c-mobile">
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+              </div>
+              <div class="skills-row txt-c-mobile">
+                <span>Vuejs</span>
+                <span>Reactjs</span>
+              </div>
+              <div class="skills-row txt-c-mobile">
+                <span>Jest</span>
+                <span>Jasmine</span>
+              </div>
+              <div class="skills-row txt-c-mobile">
+                <span>PHP</span>
+                <span>Laravel</span>
+              </div>
+              <div class="skills-row txt-c-mobile">
+                <span>Django</span>
+                <span>Python</span>
+              </div>
+            </div>
+            <div class="Activities widget-wrapper mt-20">
+              <h2 class="h2-shape-setting-page">Latest Activities</h2>
+              <p class="p-shape-setting-page">
+                Latest Activities Done By The User
+              </p>
+              <div class="row d-flex align-center">
+                <img
+                  class="mr-10"
+                  src="Images/activity-01.png"
+                  alt=""
+                  width="80"
+                  height="80"
+                />
+                <div class="info flex-1">
+                  <span>Store</span>
+                  <p class="c-grey">Bought The Mastering Python Course</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">18:10</span>
+                  <span class="c-grey">Yesterday</span>
+                </div>
+              </div>
+              <div class="row d-flex align-center">
+                <img
+                  class="mr-10"
+                  src="Images/activity-02.png"
+                  alt=""
+                  width="80"
+                  height="80"
+                />
+                <div class="info flex-1">
+                  <span>Academy</span>
+                  <p class="c-grey">Got The PHP Certificate</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">05:55</span>
+                  <span class="c-grey">Yesterday</span>
+                </div>
+              </div>
+              <div class="row d-flex align-center">
+                <img
+                  class="mr-10"
+                  src="Images/activity-03.png"
+                  alt=""
+                  width="80"
+                  height="80"
+                />
+                <div class="info flex-1">
+                  <span>Badges</span>
+                  <p class="c-grey">Unlocked The 10 Skills Badge</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">10:01</span>
+                  <span class="c-grey">Yesterday</span>
+                </div>
+              </div>
+              <div class="row d-flex align-center">
+                <img
+                  class="mr-10"
+                  src="Images/activity-01.png"
+                  alt=""
+                  width="80"
+                  height="80"
+                />
+                <div class="info flex-1">
+                  <span>Store</span>
+                  <p class="c-grey">Bought The Typescript Course</p>
+                </div>
+                <div class="time">
+                  <span class="d-block mb-10">12:15</span>
+                  <span class="c-grey">Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
